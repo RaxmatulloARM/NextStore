@@ -1,0 +1,17 @@
+.hero {
+  margin-bottom: 40px;
+}
+
+.hero__imgg {
+  display: none;
+}
+
+@media only screen and (max-width: 350px) {
+  .hero__img {
+    display: none;
+  }
+
+  .hero__imgg {
+    display: block;
+  }
+}

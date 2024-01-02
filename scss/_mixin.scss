@@ -1,0 +1,18 @@
+@mixin jojo{
+    display: flex;
+    width: 1280px;
+    height: 50px;
+    padding: 17px 0px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 10px;
+    color: var(--Text-Main, #1E1E1E);
+    text-align: center;
+    font-family: "Nuckle";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 591;
+    line-height: normal;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./scss/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- =======================================H.E.A.D.E.R=================================================================================== -->
+
+
+
+  <header class="header">
+    <div class="container">
+
+      <a class="hamburger" href="#">
+        <img class="hamburger__logo" src="./img/dehaze.svg" alt="hamburger">
+      </a>
+
+      <a class="header__link-1" href="#">
+        <img class="header__logo" src="./img/Logo.svg" alt="logo" width="91" height="31">
+      </a>
+
+
+      <a class="header__link--2" href="#">
+        <img class="header__katalog" src="./img/Katalog.png" alt="logo" width="149" height="46">
+      </a>
+
+
+      <form class="header__input">
+        <input class="header__search" type="text" placeholder="Maxsulotlarni izlash">
+        <button class="input__btn" type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <g clip-path="url(#clip0_651_11838)">
+              <path d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z" fill="white"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_651_11838">
+                <rect width="24" height="24" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </form>
+
+
+      <a class="header__Sevimlilar" href="#">
+        <img src="./img/Sevimlilar.png" alt="logo" width="46" height="46">
+      </a>
+
+      <a class="header__korzina" href="#">
+        <img src="./img/Korzina.png" alt="logo" width="46" height="46">
+      </a>
+
+
+      <button class="header__btn">Kirish</button>
+
+
+
+      <div class="header__modal">
+        <button class="header__btn--kirish">Kirish</button>
+        <button class="header__btn--chiqish">Chiqish</button>
+
+
+        <ul class="modal__list">
+          <li class="modal__item">
+            <img class="modal__img" src="./img/modal.svg" alt="logo" width="24" height="24" >
+            <h2 class="modal__heading">Shaxsiy ma'lumotlar</h2>
+          </li>
+
+          <li class="modal__item">
+            <img class="modal__img" src="./img/modal.svg" alt="logo" width="24" height="24" >
+            <h2 class="modal__heading">Shaxsiy ma'lumotlar</h2>
+          </li>
+
+
+          <li class="modal__item">
+            <img class="modal__img" src="./img/modal.svg" alt="logo" width="24" height="24" >
+            <h2 class="modal__heading">Shaxsiy ma'lumotlar</h2>
+          </li>
+
+          <div class="katalogcha">
+            <a class="header__link jojo" href="#">
+              <img class="header__katalog" src="./img/Katalog.png" alt="logo" width="100" height="24">
+            </a>
+
+            <a class="header__Sevimlilarr" href="#">
+              <img src="./img/Sevimlilar.png" alt="logo" width="36" height="36">
+            </a>
+      
+            <a class="header__korzinaa" href="#">
+              <img src="./img/Korzina.png" alt="logo" width="36" height="36">
+            </a>
+          </div>
+
+         
+        </ul>
+      </div>
+
+
+     <div class="form__div">
+      <form class="form">
+        <button class="button__modal">X</button>
+        <h3 class="form__h3">Hisobga kirish uchun </h3>
+        <button class="form__kirish">Kirish</button>
+        <p class="form__yoki">Yoki</p>
+        <button class="form__ruyxat">Ro'yxatdan o'tish</button>
+      </form>
+     </div>
+
+     <div class="kirish__div  ">
+      <form class="kirish__3">
+        <button class="kirish__btn">X</button>
+        <h3 class="kirish__h3">Telefon raqam orqali kirish</h3>
+        <input class="kirish__tel" type="number" placeholder="Telefon raqam">
+        <input class="kirish__pass" type="password" placeholder="parol">
+        <button class="kirish__button">kirish</button>
+        <p class="kirish__parol">parolni unutdingizmi ?</p>
+      </form>
+     </div>
+
+     <div class="passnan">
+      <form class="passnan__form">
+        <button class="passnan__btn">X</button>
+        <h3 class="passnan__h3">Parolni Tiklash</h3>
+        <input class="passnan__in" type="number" placeholder="Telefon raqami">
+        <button class="kirish__2">Parolni Tiklash</button>
+      </form>
+     </div>
+
+     <div class="newpassword">
+      <form class="passnan__form">
+        <button class="passnan__btn">X</button>
+        <h3 class="new__h3">Kirishni tasdiqlash</h3>
+        <p class="new__text">+ 998 9* *** ** ** raqamga kod yubordik</p>
+        <input class="nan__in" type="number" placeholder="bir martalik kodni kiriting">
+        <button class="nan__kirish">kirish</button>
+      </form>
+     </div>
+
+     <div class="ruyxat">
+      <form class="ruyxat__form">
+        <button class="ruyxat__x">X</button>
+        <h3 class="ruyxat__title">telefon raqamini kiriting</h3>
+        <input class="ruyxat__in" type="number" placeholder="+ 998 9* *** ** **">
+        <button class="ruyxat__btnjon">kodni qabul qilish</button>
+      </form>
+     </div>
+
+
+
+    </div>
+  </header>
+
+
+
+  <!-- =============================================================M.A.I.N========================================================================== -->
+
+
+  <!-- ====================================H.e.r.o========================================================================== -->
+
+  <main class="main">
+   <section class="hero">
+      <div class="container">
+        <img class="hero__img" src="img/karuseel.png" alt="img" width="1354" height="416">
+        <img class="hero__imgg" src="img/karuseel.png" alt="img" width="1230" height="190">
+      </div>
+    </section> 
+
+     <section class="kategoriya">
+      <div class="container">
+
+        <h1 class="heading">Kategoriyalar</h1>
+
+        <ul class="kategoriya__list"></ul>
+
+        <template id="template__1">
+          <li class="kategoriya__item">
+            <img class="kategoriya__img" src=" " alt="img" width="136" height="136">
+            <h2 class="heading">Lorem, ipsum.</h2>
+          </li>
+        </template>
+
+        <button class="kategoriya__btn">Batafsil</button>
+      </div>
+    </section>
+
+    
+    
+    
+    
+    <!-- ======================================S.a.l.e============================================================================ -->
+    
+    <section class="sale">
+      <div class="container">
+        <h3 class="heading__h3">Eng ko'p sotilgan</h3>
+        <ul class="films__list"></ul>
+        
+        <template id="film-template">
+          <li class="film">
+            <img class="film__image" src="https://image.tmdb.org/t/p/w500/xnopI5Xtky18MPhK40cZAGAOVeV.jpg"
+            alt="Shazam's poster" width="200" height="300" />
+            <h3 class="film__title">Shazam</h3>
+            
+            <p class="film__overview">Lorem ipsum dolor sit amet.</p>
+            <p class="film__release_date">230ta sotildi</p>
+            
+            <div class="sale__box">
+              <button type="button" class=" sale__btn btn btn-primary">Primary</button>
+              <img class="sale__img" src="./img/shopping_cart.svg" alt="svg" width="24" height="24">
+            </div>
+            
+            
+            <ul class="film__genres"></ul>
+          </li>
+        </template>
+        
+        
+        <template id="film-genre-template">
+        <li class="film-genre">Action</li>
+      </template>
+      <button class="kategoriya__btn">Ko’proq ko’rish</button>
+    </div>
+  </section>
+  
+  
+  <!-- ======================================D.o.m============================================================================ -->
+  
+  
+  <section class="dom">
+    <div class="container">
+      <img class="img" src="./img/slider.png" alt="img" width="1354" height="266">
+    </div>
+  </section>
+  
+  <!-- ======================================T.e.m.p.l.a.t.e__2============================================================================ -->
+
+  <section class="template__2">
+    <div class="container">
+      <h3 class="heading__h3">Eng ommabop</h3>
+      <ul class="films__listt"></ul>
+      
+      
+      <template id="film-templatet">
+        <li class="filmjon">
+          <img class="filmjon__image" src="https://image.tmdb.org/t/p/w500/xnopI5Xtky18MPhK40cZAGAOVeV.jpg"
+          alt="Shazam's poster" width="200" height="300" />
+          <h3 class="filmjon__title">Shazam</h3>
+          
+          <p class="filmjon__overview">Lorem ipsum dolor sit amet.</p>
+          <p class="filmjon__release_date">230ta sotildi</p>
+          
+          <div class="sale__box">
+            <button type="button" class=" sale__btn btn btn-primary">Primary</button>
+            <img class="sale__img" src="./img/shopping_cart.svg" alt="svg">
+          </div>
+          
+          
+        </li>
+      </template>
+      <button class="kategoriya__btn">Ko’proq ko’rish</button>
+    </div>
+  </section>
+  
+  <!-- ======================================B.r.e.n.d============================================================================ -->
+  
+  <section class="brend">
+    <div class="container">
+      <h4 class="heading__h4">Brendlar bo’yicha</h4>
+      <ul class="brend__list"></ul>
+      
+      <template id="brend__template">
+        <li class="brendjon">
+          <img class="brend__img" src="" alt="" width="90" height="90">
+        </li>
+      </template>
+    </div>
+  </section>
+  
+  <!-- ======================================D.o.m - 2============================================================================ -->
+  
+   <section class="dom">
+    <div class="container">
+      <img class="img" src="./img/slider.png" alt="img" width="1354" height="266">
+    </div>
+  </section>
+  
+  <!-- ======================================S.t.o.r.e============================================================================ -->
+
+  
+  <section class="store">
+    <div class="container">
+      <h4 class="heading__h4">Do'konlarimiz</h4>
+      <ul class="store__list"></ul>
+      
+      <template id="store__template">
+        <li class="storejon">
+          <img class="store__img" src="" alt="" width="90" height="90">
+        </li>
+      </template>
+    </div>
+  </section>
+  
+</main>
+  
+  <!-- ======================================F.o.o.t.e.r============================================================================ -->
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="document">
+        <div class="things">
+          <h5 class="heading__h5">Hujjatlar</h5>
+          <p class="text">Umumiy shartlar</p>
+          <p class="text">Ofertalar arxivi</p>
+          <p class="text">Nizom</p>
+          <p class="text">Guvohnoma</p>
+        </div>
+        
+        <div class="things">
+          <h5 class="heading__h5">Servis</h5>
+          <p class="text">Do’konlar</p>
+          <p class="text">Biz haqimizda</p>
+          <p class="text">Hamkorlik uchun</p>
+          <p class="text">Qaytarish</p>
+          <p class="text">Promokodlar</p>
+        </div>
+        
+        <div class="things jojojo">
+          <h5 class="heading__h5">Mahsulotlar katalogi</h5>
+          <p class="text">Katalog 1</p>
+          <p class="text">Katalog 1</p>
+          <p class="text">Katalog 2</p>
+          <p class="text">Katalog 2</p>
+          <p class="text">Katalog 3</p>
+          <p class="text">Katalog 3</p>
+        </div>
+      </div>
+      
+      <div class="information">
+        <h5 class="heading__h5">Axbarot xizmati</h5>
+        <p class="text">contact.@nextstore.uz</p>
+        <p class="text">+998 97 712 96 96  
+          +998 95 503 09 09</p>
+          
+          <p class="text">Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston</p>
+          
+          <div class="sayt">
+            <img class="sayt__img" src="./img/Facebook.svg" alt="img" width="42" height="42">
+            <img class="sayt__img" src="./img/Instagram.svg" alt="img" width="42" height="42">
+            <img class="sayt__img" src="./img/Telegram.svg" alt="img" width="42" height="42">
+            <img class="sayt__img" src="./img/TikTok.svg" alt="img" width="42" height="42">
+          </div>
+          
+        </div>
+      </div>
+      
+
+<div class="container">
+  <div class="best">
+    <hr class="hr__line">
+
+   <div class="boom">
+    <p class="text__p">2022  Nextstore.com</p>
+    <p class="text__p nonee">Powered by </p>
+   </div>
+  </div>
+</div>
+  </footer>
+  
+
+<!-- =====================================J.a.v.a.S.c.r.i.p.t=========================================================================== -->
+  <script src="./js/store.js"></script>
+  <script src="./js/brend.js"></script>
+  <script src="./js/films.js"></script>
+  <script src="./js/film.js"></script>
+  <script src="./js/kategoriya.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
